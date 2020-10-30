@@ -110,13 +110,13 @@ paths:
                   - request
                   - response
       operationId: get-v1-timeseries-single-series
-      summary: ''
+      summary: Single series
       tags:
         - timeseries
     parameters: []
   /v1/catalog/available-series:
     get:
-      summary: Your GET endpoint
+      summary: Available series
       tags:
         - catalog
       responses:
@@ -290,7 +290,7 @@ paths:
     parameters: []
   /vi/catalog/available-regions:
     get:
-      summary: Your GET endpoint
+      summary: Available regions
       tags:
         - catalog
       responses:
@@ -343,7 +343,7 @@ paths:
       description: Return all available regions for a certain time series.
   /v1/catalog/series-identification:
     get:
-      summary: Your GET endpoint
+      summary: Series identification
       tags:
         - catalog
       responses:

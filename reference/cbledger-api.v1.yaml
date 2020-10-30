@@ -130,9 +130,6 @@ paths:
                 properties:
                   request:
                     type: object
-                    required:
-                      - central bank
-                      - 'satus:'
                     properties:
                       central bank:
                         type: string
@@ -142,8 +139,6 @@ paths:
                         minLength: 1
                   response:
                     type: object
-                    required:
-                      - available series
                     properties:
                       available series:
                         type: array

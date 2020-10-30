@@ -110,14 +110,15 @@ paths:
                   - request
                   - response
       operationId: get-v1-timeseries-single-series
-      tags:
-        - test-tag
       summary: ''
+      tags:
+        - timeseries
     parameters: []
   /v1/catalog/available-series:
     get:
       summary: Your GET endpoint
-      tags: []
+      tags:
+        - catalog
       responses:
         '200':
           description: OK
@@ -290,7 +291,8 @@ paths:
   /vi/catalog/available-regions:
     get:
       summary: Your GET endpoint
-      tags: []
+      tags:
+        - catalog
       responses:
         '200':
           description: OK
@@ -342,7 +344,8 @@ paths:
   /v1/catalog/series-identification:
     get:
       summary: Your GET endpoint
-      tags: []
+      tags:
+        - catalog
       responses:
         '200':
           description: OK
@@ -5859,4 +5862,5 @@ paths:
 components:
   schemas: {}
 tags:
-  - name: test-tag
+  - name: timeseries
+  - name: catalog

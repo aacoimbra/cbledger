@@ -4,8 +4,8 @@
 
 ### The documentation
 
-Please refer to [https://docs.cbledger.com/](https://docs.cbledger.com/) for documentation and instructions on how to contribute to the project..
+Please refer to [https://docs.cbledger.com/](https://docs.cbledger.com/) for documentation and instructions on how to contribute to the project.
 
 ### Contact
 
-For any inquiry or feedback please reach out at contact@cbledger.com
+For any inquiry or feedback please reach out at contact@cbledger.com.

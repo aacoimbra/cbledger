@@ -106,7 +106,7 @@ def eu(code):
 timeseries1 = {
 
     'brazil':{
-        'gdp': {'code':1207, 'description':'GDP at current prices in R$','unit':'R$','freq':'A'},
+        'gdp': {'code':1208, 'description':'GDP at constant last year prices in R$','unit':'R$','freq':'A'},
         'gdppercapita': {'code':21775, 'description':'GDP per capita at current prices in R$','unit':'R$','freq':'A'},
         'mb': {'code':1788, 'description':'Monetary base - Monetary base (end-of-period balance)','unit':'c.m.u. (thousand)','freq':'M'},
         'm1': {'code':27841, 'description':'Money supply - M1 (end-of-period balance)','unit':'c.m.u. (thousand)','freq':'M'},
@@ -128,6 +128,10 @@ timeseries1 = {
         'gdp': {'code':'MNA.Q.N.B6.W2.S1.S1.B.B1GQ._Z._Z._Z.EUR.V.N', 'description':'Gross domestic product at market prices','unit':'Millions','freq':'Q'},
         'publicdebt': {'code':'GFS.Q.N.B6.W0.S13.S1.C.L.LE.GD.T._Z.XDC._T.F.V.N._T', 'description':'Government debt (consolidated)','unit':'Millions of Euro','freq':'M'},
     },
+
+    # 'unitedkingdom':{
+    #     'gdp': {'code':'LPMVWYT', 'description':'M1 (estimate of EMU aggregate for the UK)','unit':'sterling millions','freq':'M'},
+    # },
 
 
     'unitedstates': {
@@ -287,6 +291,8 @@ forex = {
     'brazil': 1,
     'eurozone': 'EXR.D.USD.EUR.SP00.A',
     'europeanunion': 'EXR.D.USD.EUR.SP00.A',
+    'unitedkingdom': 'XUDLGBD',
+    
     }
 
 

@@ -8,7 +8,7 @@ info:
     url: 'https://www.cbledger.com/about'
     email: contact@cbledger.com
 servers:
-  - url: 'http://api.cbledger.com'
+  - url: 'https://api.cbledger.com'
 paths:
   /v1/timeseries/single-series:
     get:
